@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap&subset=cyrillic');
+
+@tailwind base;
+
+@tailwind components;
+.input-error {
+    @apply .border-red-500 .bg-red-100;
+}
+.input-label {
+    @apply .block .text-gray-500 .mb-1 .pr-4;
+}
+@screen md {
+    .input-label {
+        @apply .text-right .mb-0;
+    }
+}
+
+
+
+@tailwind utilities;
+
+html {
+    @apply font-body
+}
